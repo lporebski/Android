@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">nauka_jezyka</string>
+    <string-array name="languages">
+        <item>Polski</item>
+        <item>Angielski</item>
+    </string-array>
+</resources>

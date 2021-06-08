@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">zad1</string>
+    <string name="kwadrat">kwadrat</string>
+    <string name="kwadrat_text">Kwadrat</string>
+    <string name="prostok_t">prostokąt</string>
+    <string name="prostok_t_text">Prostokąt</string>
+    <string name="kolo">koło</string>
+    <string name="kolo_text">Koło</string>
+    <string name="romb">romb</string>
+    <string name="romb_text">Romb</string>
+    <string name="trojkat_prostokatny">trojkat prostokatny</string>
+    <string name="trojkat_prostokatny_text">Trójkąt prostokątny</string>
+    <string name="trojkat_rownoboczny">trójkąt równoboczny</string>
+    <string name="trojkat_rownoboczny_text">Trójkąt równoboczny</string>
+</resources>

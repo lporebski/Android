@@ -1,0 +1,16 @@
+button{
+display:inline-block;
+}
+#selected{
+margin-left:10%;
+}
+#game{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 90px;
+    height: 90px;
+}
+

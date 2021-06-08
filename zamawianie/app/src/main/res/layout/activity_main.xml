@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Wpisz imię"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/input_surname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Wpisz nazwisko"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/input_adress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Wpisz adres zamieszkania"
+                android:inputType="textPersonName" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupType"
+                android:layout_width="119dp"
+                android:layout_height="108dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Typ ciasta" />
+
+                <RadioButton
+                    android:id="@+id/thin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="cienkie" />
+
+                <RadioButton
+                    android:id="@+id/thick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="grube" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroupSize"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rozmiar pizzy" />
+
+                <RadioButton
+                    android:id="@+id/small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="mała" />
+
+                <RadioButton
+                    android:id="@+id/medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="średnia" />
+
+                <RadioButton
+                    android:id="@+id/big"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="duża" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Podstawowe składniki(minimum trzy)" />
+
+            <CheckBox
+                android:id="@+id/cheese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ser" />
+
+            <CheckBox
+                android:id="@+id/ham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="szynka" />
+
+            <CheckBox
+                android:id="@+id/chicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kurczak" />
+
+            <CheckBox
+                android:id="@+id/mushrooms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pieczarki" />
+
+            <CheckBox
+                android:id="@+id/olives"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="oliwki" />
+
+            <CheckBox
+                android:id="@+id/bacon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="boczek" />
+
+            <CheckBox
+                android:id="@+id/onion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cebula" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dodatkowe składniki(maksymalnie dwa)" />
+
+            <CheckBox
+                android:id="@+id/salami"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="salami" />
+
+            <CheckBox
+                android:id="@+id/tuna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tuńczyk" />
+
+            <CheckBox
+                android:id="@+id/garlicSauce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sos czosnkowy" />
+
+            <CheckBox
+                android:id="@+id/tomatoSauce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sos pomidorowy" />
+
+            <CheckBox
+                android:id="@+id/oregano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="oregano" />
+
+            <CheckBox
+                android:id="@+id/garlic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="czosnek" />
+
+            <CheckBox
+                android:id="@+id/capers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kapary" />
+
+            <CheckBox
+                android:id="@+id/prawns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="krewetki" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zapłać" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
